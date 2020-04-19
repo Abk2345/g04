@@ -1,0 +1,55 @@
+@import "./topnav";
+
+
+  #cont{
+    border-radius: 50%;
+    box-shadow: 0 5px 10px goldenrod;
+    height: 300px;
+    width: 500px;
+    float: right;
+  }
+  .last:hover{
+    transform: scale(1.05,1.05);
+  transition-duration: 0.25s;
+  
+  }
+  h1 {
+    text-shadow: 0 0 10px blue;
+    font-size: 75px;
+    text-align: center;
+    font-family: verdana;
+    color: white;
+  }
+  
+  li:hover{
+    transform: scale(1.02,1.02);
+    transition-duration: 0.25s;
+  }
+
+ul{
+  
+    font-size: 30px;
+    font-family:  verdana;
+    text-shadow: 0 0 10px blue;
+    color: white;
+   
+    img{
+      height: 50px;
+      width: 80px;
+      float: left;
+      box-shadow: 0 3px 7px yellowgreen;  
+    }
+  
+}
+#cont1{
+  height: 300px;
+  width: 500px;
+  float: left;
+}
+@media screen and (max-width: 960px)
+{
+  #cont{
+    float:left;
+  }
+
+}
