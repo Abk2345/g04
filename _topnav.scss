@@ -37,6 +37,7 @@
   .topnav a.active {
     background-color: blue;
     color: white;
+    border:3px solid yellow;
     &:hover{
       background-color: greenyellow;
       color: black;
